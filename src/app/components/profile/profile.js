@@ -4,11 +4,13 @@ import styles from "./profile.module.css";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
+import Link from "next/link";
+
 export default function Profile() {
   return (
-    <div >
+    <div className={styles.intro_div}>
       <Image
-        src="/images/profile.avif"
+        src="/images/swati_image.jpeg"
         alt="Avatar"
         className={styles.avatar}
         width={100}
@@ -20,28 +22,10 @@ export default function Profile() {
       {/* </div> */}
       <div className={styles.connect}>
         <span>
-          {" "}
-          <FaGithub />{" "}
+          <Link href='https://github.com/vishswati1011/' target="_blank"> <FaGithub /> </Link>
         </span>
         <span>
-          {" "}
-          <FaLinkedin />{" "}
-        </span>
-        <span>
-          {" "}
-          <FaGithub />{" "}
-        </span>
-        <span>
-          {" "}
-          <FaLinkedin />{" "}
-        </span>
-        <span>
-          {" "}
-          <FaGithub />{" "}
-        </span>
-        <span>
-          {" "}
-          <FaLinkedin />{" "}
+          <Link href='https://www.linkedin.com/in/vishwakarma-swati/' target="_blank"> <FaLinkedin /> </Link>
         </span>
       </div>
 

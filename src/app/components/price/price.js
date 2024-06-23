@@ -8,10 +8,10 @@ export default function Price() {
   return (
     <div className={styles.price_div}>
       <div className={styles.first_div}>
-        <h4>Price Plans</h4>
+        <h1>Price Plans</h1>
         <p>
           I am a service provider for web development, backend developer and
-          full stack developer
+          full stack development.
         </p>
       </div>
       <div className={styles.second_div}>

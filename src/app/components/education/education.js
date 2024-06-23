@@ -4,8 +4,8 @@ export default function Education() {
   return (
     <div className={styles.education_div}>
       <div className={styles.first_div}>
-        <h4> My education</h4>
-        <p>I am a student of computer science and engineering</p>
+        <h1> My education</h1>
+        {/* <p>I am a student of computer science and engineering</p> */}
       </div>
       <div className={styles.second_div}>
         <div className={styles.projects}>

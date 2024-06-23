@@ -5,10 +5,10 @@ export default function Education() {
   return (
     <div className={styles.work_div}>
         <div className={styles.first_div}>
-                <h4>Work History</h4>
-                <p>
+                <h1>Work History</h1>
+                {/* <p>
                     My all work history on which i have worked and learn a lot.
-                </p>
+                </p> */}
         </div>
         <div className={styles.second_div}>
         {projects && projects.map((project, index) => (

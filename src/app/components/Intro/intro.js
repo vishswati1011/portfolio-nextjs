@@ -15,7 +15,7 @@ export default function Intro() {
                 <button className={styles.resume_button}>Hire me</button>
         </div>
         <div className={styles.right_div}>
-                <Image src="/images/profile.avif" alt="developer" width={400} height={400} />
+                <Image src="/images/swati_image.jpeg" alt="developer" width={400} height={400} className={styles.profile_image} />
         </div>
       
     </div>

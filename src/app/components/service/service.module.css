@@ -9,7 +9,7 @@
     align-items: center;
     padding: 20px;
 }
-.first_div h4{
+.first_div h1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -35,6 +35,10 @@
     background-color: var(--white-color);
     border-radius: 15px;
 }
+.grid_box h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
 .icon{
     font-size: 2rem;
     color: black
@@ -43,6 +47,7 @@
   
     .service_div{
        width: 100%;
+       background-color: var(--white-color);
     }
     .first_div{
         display: flex;
@@ -53,7 +58,8 @@
     .second_div {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 25px;
+        justify-content: center;
+        align-items: center;
     }
     .grid_box{
         width: 250px;
@@ -65,6 +71,7 @@
         align-items: center;
         background-color: var(--white-color);
         border-radius: 15px;
+        border: 1px solid var(--yellow-color);
     }
     .icon{
         font-size: 2rem;

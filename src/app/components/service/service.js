@@ -1,11 +1,16 @@
 import React from 'react'
 import styles from './service.module.css'
 import { CgWebsite } from "react-icons/cg";
+import { TbApi } from "react-icons/tb";
+import { FaDisease } from "react-icons/fa";
+import { FaDatabase } from "react-icons/fa";
+import { FaDribbble } from "react-icons/fa";
+import { MdRealEstateAgent } from "react-icons/md";
 export default function Service() {
 return (
     <div className={styles.service_div}>
         <div className={styles.first_div}>
-            <h4>My service</h4>
+            <h1>My service</h1>
             <p>I am a service provider for web development, backend developer and full stack developer</p>
         </div>
         <div className={styles.second_div}>
@@ -13,34 +18,34 @@ return (
             <div className={styles.grid_box}>
                 <CgWebsite className={styles.icon}/>
                 <h4>Web Development</h4>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                <p>Experienced full-stack developer offering comprehensive web development services, specializing in creating dynamic and responsive websites from front-end design to back-end implementation.</p>
             </div>
 
             <div className={styles.grid_box}>
-                <CgWebsite className={styles.icon}/>
+                <FaDatabase className={styles.icon}/>
                 <h4>Backend Development</h4>
-                <p>Backend development include RESTful API implementation</p>
+                <p>Expert in API implementation for backend development using Node.js with various databases, ensuring efficient data management and seamless connectivity.</p>
             </div>
 
             <div className={styles.grid_box}>
-                <CgWebsite className={styles.icon}/>
+                <FaDisease className={styles.icon}/>
                 <h4>Static Website </h4>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                <p>Providing expert static website implementation, delivering fast, secure, and visually appealing websites tailored to your specific needs.</p>
             </div>
             <div className={styles.grid_box}>
-                <CgWebsite className={styles.icon}/>
+                <MdRealEstateAgent className={styles.icon}/>
                 <h4>State Management in (React Js / Next JS)</h4>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                <p>Expert in state management using Redux for React and Next.js applications, ensuring efficient data flow and seamless user interactions.</p>
             </div>
             <div className={styles.grid_box}>
-                <CgWebsite className={styles.icon}/>
+                <TbApi className={styles.icon}/>
                 <h4>API Integration</h4>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                <p>Skilled in API integration for React and Next.js projects, enabling smooth data exchange and robust application functionality.</p>
             </div>
             <div className={styles.grid_box}>
-                <CgWebsite className={styles.icon}/>
+                <FaDribbble className={styles.icon}/>
                 <h4>Dynamic Website</h4>
-                <p>Web development is the work involved in developing a Web site for the Internet or an intranet.</p>
+                <p>Specializing in dynamic website implementation, creating interactive and engaging websites with seamless functionality and personalized user experiences.</p>
             </div>
         </div>
     </div>

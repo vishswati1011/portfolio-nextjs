@@ -9,7 +9,7 @@
     align-items: center;
     padding: 20px;
 }
-.first_div h4{
+.first_div h1{
     margin-top: 0px;
     margin-bottom: 0px;
 }
@@ -80,6 +80,8 @@
 @media screen and (min-width:300px) and (max-width:768px) {
     .price_div{
         width: 100%;
+       background-color: var(--white-color);
+
      }
      .first_div{
          display: flex;
@@ -88,9 +90,10 @@
          align-items: center;
      }
      .second_div {
-         display: grid;
-         grid-template-columns: 1fr;
-         padding: 25px;
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        align-items: center;
      }
      .grid_box {
          width: 250px;
@@ -102,6 +105,8 @@
          align-items: center;
          background-color: var(--white-color);
          border-radius: 15px;
+         border: 1px solid var(--yellow-color);
+
      }
      .grid_box h1 {
         font-size:16px;
