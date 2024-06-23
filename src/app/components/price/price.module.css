@@ -1,0 +1,115 @@
+.price_div{
+    display: grid;
+    flex-direction: block;
+}
+.first_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+.first_div h4{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.first_div p {
+    margin-top: 15px;
+    margin-bottom: 0px;
+}
+
+.second_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 2rem;
+    padding: 70px;
+}
+.grid_box{
+    width: 300px;
+    height: auto;
+    margin-top:20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white-color);
+    border-radius: 15px;
+}
+
+.grid_box h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.grid_box h2{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.grid_box p{
+    color: var(--gray-color);
+}
+.language_div{
+    display: flex;
+    flex-flow: column;
+    font-size: 12px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+
+.language_row{
+    display: flex;
+    flex-flow: row;
+    font-size: 12px;
+    margin-top:0;
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+.check_icon{
+    font-size: 1.5rem;
+}
+.cross_icon{
+    font-size: 1.5rem;
+    color: red;
+}
+.text {
+    margin-left: 20px;
+    font-size: 1rem;
+}
+@media screen and (min-width:300px) and (max-width:768px) {
+    .price_div{
+        width: 100%;
+     }
+     .first_div{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+     }
+     .second_div {
+         display: grid;
+         grid-template-columns: 1fr;
+         padding: 25px;
+     }
+     .grid_box {
+         width: 250px;
+         height: auto;
+         padding: 10px;
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         background-color: var(--white-color);
+         border-radius: 15px;
+     }
+     .grid_box h1 {
+        font-size:16px;
+     }
+     .grid_box h2{
+        font-size:14px;
+     }
+     .grid_box p{
+        font-size:12px;
+     }
+}
