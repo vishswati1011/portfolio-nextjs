@@ -84,6 +84,7 @@
      .second_div {
          display: flex;
             flex-direction: column;
+            /* padding: 0px; */
      }
      .left_div{
        width:100%;

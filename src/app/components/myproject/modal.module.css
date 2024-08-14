@@ -1,0 +1,26 @@
+.extra_large_modal .modal_dialog {
+    /* max-width: 90%; */
+    width: 90%;
+  }
+  
+
+.document_image_view_css{
+
+    width: 100%;
+    height: auto;
+}
+.close_icon {
+    margin-left: 80%;
+}
+
+.video {
+    width: 100%;
+    height: auto;
+}
+
+@media screen and (min-width:300px) and (max-width: 768px) {
+   .video {
+    width: 300px;
+    height: auto;
+   }   
+}

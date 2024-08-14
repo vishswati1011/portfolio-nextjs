@@ -17,8 +17,8 @@ export default function Price() {
       <div className={styles.second_div}>
         {priceData?.map((item, index) => (
           <div className={styles.grid_box} key={index}>
-            <h1>{item.name}</h1>
-            <h2>{item.price}</h2>
+            <h3>{item.name}</h3>
+            <h6>{item.price}</h6>
             <p>{item.description}</p>
             <div className={styles.language_div}>
               {item.features.map((feature, index) => (

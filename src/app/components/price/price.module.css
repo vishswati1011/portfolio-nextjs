@@ -40,6 +40,7 @@
 .grid_box h1{
     margin-top: 0px;
     margin-bottom: 0px;
+    font-size: 16px;
 }
 .grid_box h2{
     margin-top: 5px;
@@ -94,10 +95,11 @@
         grid-template-columns: 1fr;
         justify-content: center;
         align-items: center;
+        padding: 20px;
      }
      .grid_box {
-         width: 250px;
-         height: auto;
+        width: 100%;
+        height: auto;
          padding: 10px;
          display: flex;
          flex-direction: column;

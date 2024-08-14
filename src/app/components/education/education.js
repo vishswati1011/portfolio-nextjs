@@ -10,12 +10,12 @@ export default function Education() {
       <div className={styles.second_div}>
         <div className={styles.projects}>
           <div className={styles.left_div}>
-            <h3>Master of computer application</h3>
-              <h4> DAVV Indore M.P Bharat</h4> <h4>2018-2021</h4>
+            <h6>Master of computer application</h6>
+              <h6> DAVV Indore M.P Bharat</h6> <h6>2018-2021</h6>
           </div>
           <div className={styles.left_div}>
-            <h3>Bachelor of computer science</h3>
-              <h4> DAVV Indore M.P Bharat</h4> <h4>2015-2018</h4>
+            <h6>Bachelor of computer science</h6>
+              <h6> DAVV Indore M.P Bharat</h6> <h6>2015-2018</h6>
           </div>
         </div>
       </div>

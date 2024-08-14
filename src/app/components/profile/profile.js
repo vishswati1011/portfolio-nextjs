@@ -97,6 +97,12 @@ export default function Profile() {
         <span className={styles.language_bar_full}></span>
 
         <span className={styles.language_row}>
+          <p>React Native</p>
+          <p>100%</p>
+        </span>
+        <span className={styles.language_bar_full}></span>
+
+        <span className={styles.language_row}>
           <p>Next JS</p>
           <p>100%</p>
         </span>

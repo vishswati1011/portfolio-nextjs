@@ -17,34 +17,34 @@ return (
 
             <div className={styles.grid_box}>
                 <CgWebsite className={styles.icon}/>
-                <h4>Web Development</h4>
+                <h3>Web Development</h3>
                 <p>Experienced full-stack developer offering comprehensive web development services, specializing in creating dynamic and responsive websites from front-end design to back-end implementation.</p>
             </div>
 
             <div className={styles.grid_box}>
                 <FaDatabase className={styles.icon}/>
-                <h4>Backend Development</h4>
+                <h3>Backend Development</h3>
                 <p>Expert in API implementation for backend development using Node.js with various databases, ensuring efficient data management and seamless connectivity.</p>
             </div>
 
             <div className={styles.grid_box}>
                 <FaDisease className={styles.icon}/>
-                <h4>Static Website </h4>
+                <h3>Static Website </h3>
                 <p>Providing expert static website implementation, delivering fast, secure, and visually appealing websites tailored to your specific needs.</p>
             </div>
             <div className={styles.grid_box}>
                 <MdRealEstateAgent className={styles.icon}/>
-                <h4>State Management in (React Js / Next JS)</h4>
+                <h3>State Management in (React Js / Next JS)</h3>
                 <p>Expert in state management using Redux for React and Next.js applications, ensuring efficient data flow and seamless user interactions.</p>
             </div>
             <div className={styles.grid_box}>
                 <TbApi className={styles.icon}/>
-                <h4>API Integration</h4>
+                <h3>API Integration</h3>
                 <p>Skilled in API integration for React and Next.js projects, enabling smooth data exchange and robust application functionality.</p>
             </div>
             <div className={styles.grid_box}>
                 <FaDribbble className={styles.icon}/>
-                <h4>Dynamic Website</h4>
+                <h3>Dynamic Website</h3>
                 <p>Specializing in dynamic website implementation, creating interactive and engaging websites with seamless functionality and personalized user experiences.</p>
             </div>
         </div>

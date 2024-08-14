@@ -5,6 +5,7 @@ import Service from "./components/service/service";
 import Price from "./components/price/price";
 import Education from "./components/education/education";
 import Work from "./components/work/work";
+import MyProject from "./components/myproject/myproject";
 export default function Home() {
   return (
     <div className={styles.main_div}>
@@ -17,6 +18,7 @@ export default function Home() {
         <Price />
         <Education />
         <Work />
+        <MyProject />
       </div>
     </div>
   );
